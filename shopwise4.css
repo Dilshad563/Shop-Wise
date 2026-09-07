@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.last-one {
+    height: 500px;
+    width: 100%;
+    transform: translateY(250px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+#last-card {
+    height: 350px;
+    width: 280px;
+    margin-left: 10px;
+}
+
+#last-price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#last-node {
+    color: gray;
+    font-size: 16px;
+}
+
+#last-button {
+    background-color: #0D9488;
+    color: white;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 7px;
+}
+
+
+.heart-bag {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    transform: translateX(60px);
+    background-color: gre;
+}
+
+.heart-bag i {
+    border: 1px solid gray;
+    padding: 5px;
+    z-index: 1;
+    display: none
+}
+
+.product:hover .heart-bag i {
+    display: block;
+}
+
+.heart-bag i:hover {
+    background-color: green;
+}
+
+#last-button2 {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    width: 40px;
+    border-radius: 7px;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 908px;
+    background-color: #112946;
+    transform: translateY(280px);
+}
+
+.claim-offer {
+    display: flex;
+    width:90%;
+    height: 190px;
+    background-color: #203856;
+    transform: translateY(80px);
+}
+
+.flash-sale{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.flash-sale2{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(60px);
+    
+}
+#flash-button{
+    height: 23px;
+    width: 183px;
+    transform: translateY(30px);
+}
+#flash-button:hover{
+    background-color: #0C857A;
+}
+.flash-sale2>h2{
+    height: 31px;
+    width: 498px;
+    color: white;
+}
+.flash-sale2>p{
+    height: 44px;
+    width: 498px;
+    color: white;
+}
+
+.timer{
+    height: 120px;
+    width: 190px;
+    transform: translateX(540px);
+}
+
+.timer>p{
+    font-size: 16px;
+    color: #0D9488;
+    transform: translateY(-30px);
+
+}
+
+.timer-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border: 2px solid gray;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.171);
+
+}
+
+#timing{
+    font-size: 10px
+}
+.timer-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translateY(-110px);
+}
+#timer-button1{
+  background-color: #0C857A;
+  color: white;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500px;
+    transform: translateX(350px);
+}
+
+#timer-button1:hover{
+    background-color: #0c857ba0;
+    color: white;
+}
+#timer-button2{
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500px;
+        transform: translateX(350px);
+}
+#timer-button2:hover{
+    background-color: #112946;
+    color: white;
+}
+.cart-price{
+    display: flex;
+    gap: 10px;
+}
+#cart1{
+    color: #0D9488;
+    font-size: 18px;
+    font-weight: 700;
+}
+#cart-card1{
+    height: 400px;
+    width: 280px;
+    background-color: #203856;
+}
+#cart-button{
+    width: 260px;
+    color: #0D9488;
+    transform: translateY(2px);
+    border: none;
+    background-color: #0c857b31;
+}
+#cart-button:hover{
+    background-color: #0C857A;
+    color: white;
+}
+.cart-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    transform: translateX(-20px);
+}
+
+#cart-img{
+    background-color: #203856;
+}
+
+#cart-para{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+}
+
+
+
+.newletter{
+    height: 600px;
+    background-color:#F3F9F9;
+}
+
+.newletter1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    transform: translateY(350px)
+}
+.place-button #place{
+    transform: translateX(-10px);
+    height: 50px;
+    color: white;
+    border: none;
+}
+.newletter1 h2{
+    font-size: 32px;
+    font-weight: 700px;
+     font-family: "Quicksand", sans-serif;
+     color:rgb(16, 36, 61);
+
+}
+
+.newletter1 p{
+    color: gray;
+}
+
+#new-button{
+    transform: translateX(-120px);
+margin-top: 5px;
+    height: 40px;
+    width: 100px;
+}
+#new-button:hover{
+    background-color: #0c857b8c;
+}
+
+.place-button{
+    display: flex;
+    z-index: 1;
+    transform: translateX(50px);
+}
+
+.shopwise{
+    height: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+
+.shopwise1{
+    width: 300px;
+    
+}
+
+.shopwise1 p{
+    gap: 5px;
+    margin: 10px;
+    transform: translateY(130px);
+    padding-left: 10px;
+}
+.shopwise1 p i{
+        margin-right: 10px;
+        
+}
+
+.shop h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.shop ul{
+list-style: none;
+transform: translateY(140px);
+margin-left: 10px;
+
+}
+
+.shop ul li{
+    margin: 10px 0px;
+    width: fit-content;
+}
+.shop ul li{
+    position: relative;
+    cursor: pointer;
+}
+.shop ul li::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    bottom: -5px;
+    left: 0%;
+background-color: #0D9488;
+transition: 0.8s ease-in-out;
+}
+.shop ul li:hover::after{
+    width: 100%;
+}
+.shop ul li:hover{
+    color: #0D9488;
+}
+#shop2{
+    transform: translateX(80px)
+}
+#shop3{
+transform: translateX(160px);
+}
+
+#shop4{
+    transform: translateX(240px);
+}
+#app-para{
+    transform: translateY(150px);
+    color: gray;
+}
+.apps{
+    display: flex;
+    gap: 10px;
+    transform: translateX(-20px);
+}
+
+#apple-button{
+    margin-top: 5px;
+    height: 50px;
+    width: 140px;
+    
+    transform: translateY(180px);
+    background-color: rgba(128, 128, 128, 0.158);
+    color: gray;
+}
+#apple-button i{
+    font-size: 20px;
+    font-weight: 400;
+}
+#apple-button:hover{
+    background-color: #0C857A;
+    color: white;
+
+}
+
+.follow{
+    color: gray;
+    transform: translateY(200px);
+}
+.follow1 i{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+transition: transform 0.5s ease-in-out;
+
+}
+.follow1{
+    width: 200px;
+    gap: 5px;
+    margin-top: 5px;
+}
+#ytube{
+    margin-top: 10px;
+}
+.follow1 i:hover{
+    transform: rotate(360deg);
+    background-color: #0C857A;
+}

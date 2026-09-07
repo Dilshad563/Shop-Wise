@@ -1,0 +1,357 @@
+.main-hero {
+    background-color: #F4F7F6;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transform: translateY(60px);
+    height: 800px;
+}
+
+.modren {
+    height: 500px;
+    width: 40%;
+}
+
+.seller {
+    height: 500px;
+    width: 50%;
+    background-color: blue
+}
+
+.badge-labal {
+    border: 2p solid black;
+    display: flex;
+    transform: translateY(120px);
+    margin-left: 20px;
+    color: rgb(13, 148, 136);
+    background-color: rgba(13, 148, 137, 0.194);
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    padding: 3px 6px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(16, 36, 61);
+    margin-left: 20px;
+    transform: translateY(130px);
+
+}
+
+.modren p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 350px;
+    transform: translateY(140px);
+    margin-left: 20px;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.browse {
+    display: flex;
+    gap: 10px;
+    transform: translateY(160px);
+    margin-left: 20px;
+}
+
+.browse-item {
+    height: 42px;
+    width: 133px;
+    background-color: #0B8278;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+.browse-item:hover{
+    background-color: grey;
+    color: white;
+}
+
+.item {
+    height: 42px;
+    width: 186px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.374);
+
+}
+.item:hover{
+    background-color:gray;
+    color: white;
+}
+
+.shipping-icon {
+    width: 300px;
+    transform: translateY(170px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+
+.ship {
+
+    display: flex;
+    gap: 3px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.head {
+    width: 120px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: translateY(100px);
+    height: 600px;
+}
+
+.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    height: 300px;
+    width: 302px;
+    border: 1px solid rgba(128, 128, 128, 0.174);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.194);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card img {
+
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(50px);
+    background-color: aliceblue;
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+    background-color: white;
+
+}
+
+.card:hover img {
+    transform: scale(1);
+}
+
+.sell {
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+    transform: translateX(-50px);
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.562);
+}
+
+.product {
+    position: absolute;
+}
+
+.price {
+    transform: translateY(50px);
+}
+
+.price h3 {
+    transform: translateX(-40px);
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.price-para {
+    display: flex;
+    gap: 10px;
+    transform: translateX(-40px);
+    margin-top: 10px;
+
+}
+
+.price-para p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0B8278;
+}
+
+strike {
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.trend-button {
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+    transform: translateX(-50px);
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.562);
+    color: rgb(13, 148, 136);
+    background-color: rgba(13, 148, 137, 0.194);
+    padding: 10px 8px;
+}
+
+.box3{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    padding: 10px 5px;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.194);
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
+
+.product1 .sell{
+    display: flex;
+    transform: translateX(30px);
+}
+
+.box3-cont{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 208px;
+    background-color: white;
+    transform: translateX(-10px);
+    margin-top: 20px;
+}
+
+.box3-cont img{
+     height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(50px);
+    background-color: aliceblue;
+    transform: scale(0.9);
+    transition: transform 0.2s ease-out;
+    background-color: white;
+}
+.box3-cont:hover img {
+    transform: scale(1);
+}
+
+.box4-cont{
+    width: 300px;
+    transform: translateX(10px);
+}
+
+.box3-main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box4-cont h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom:10px ;
+}
+
+.box3-main .price-para{
+transform: translateY(50px);
+position: absolute;
+}
+
+.main-card{
+    background-color:#F4F7F6;
+    width: 302px;
+    border: 2px solid rgba(128, 128, 128, 0.452);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;;
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    border: transparent;
+}
+.box-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+#card-main{
+    height: 300px;
+    width: 270px;
+    margin-left: 30px;
+
+}
+
+h5{
+    display: flex;
+    transform: translateX(-40px);
+    color: gray ;
+}
+
+#one{
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+}
+
+#last{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+#trend{
+        display: flex;
+        transform: translateX(20px);
+}
+#trent{
+display: flex;
+transform: translateX(5px);
+}
+
+#price-main{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(50px);
+}
+
+#product-image{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    
+}
+

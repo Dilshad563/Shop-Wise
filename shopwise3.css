@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.lookbook {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    transform: translateY(80px);
+}
+
+.look-image {
+    height: 464px;
+    width: 600px;
+    border: 2px solid rgba(128, 128, 128, 0.877);
+    display: flex;
+    transform: translateX(40px);
+}
+
+.look-image img {
+    height: 464px;
+    width: 600px;
+}
+
+.look-text {
+
+    height: 464px;
+    width: 583px;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(50px);
+    border: 2px solid rgba(128, 128, 128, 0.511);
+}
+
+#labal {
+    background-color: rgba(128, 128, 128, 0.263);
+    height: 20px;
+    width: 100px;
+}
+
+.look-text p {
+    display: flex;
+    transform: translateY(140px);
+    width: 400px;
+
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+}
+
+.look-text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+}
+
+.icon {
+    display: flex;
+    transform: translateY(160px);
+    margin-left: 30px;
+    padding: 10px 0px;
+    width: 500px;
+}
+
+.icon i {
+    margin-right: 5px;
+}
+
+#item-button {
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(20px);
+    background-color: #31A49A;
+    color: white;
+
+}
+#item-button:hover{
+    background-color: rgb(95, 160, 105);
+    color: white;
+}
+
+#man img {
+    width: 250px;
+    height: 200px;
+
+}
+
+#man-id {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(40px);
+}
+
+.price .view {
+    display: flex;
+    transform: translateX(-38px);
+    margin-top: 16PX;
+    color: #31A49A
+}
+
+.brand {
+    height: 400px;
+    width: 100%;
+    transform: translateY(70px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-no {
+    display: flex;
+    margin-top: 10px;
+}
+
+.best-seller {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    transform: translateY(130px);
+}
+
+.logo-seller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    transform: translateX(50%);
+    font-family: "Quicksand", sans-serif;
+}
+
+.logo-seller h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-picture {
+    display: flex;
+    transform: translateY(200px);
+}
+
+.logo-sell-button {
+    color: #31A49A;
+    background-color: #31a49a8e;
+    border-radius: 20px;
+    padding: 3px;
+    border: 1px solid gray;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(5px);
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.collection {
+    display: flex;
+    font-size: 12px;
+    gap: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+#collect-para {
+    color: gray;
+    margin-left: 5px;
+}
+
+#collect-no {
+    color: gray;
+}
+
+.heart {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+}
+
+.heart>i {
+
+    margin-top: 5px;
+    border: 1px solid gray;
+    padding: 05px;
+    transform: translateX(230px);
+    z-index: 1;
+    display: none;
+}
+.product:hover .heart i{
+    display: block;
+
+}
+.heart i:hover{
+    background-color:#31a49a8e ;
+}
+
+#para-head{
+    font-size: 16px;
+    font-weight: 600;
+     font-family: "Quicksand", sans-serif;
+     margin-left: 5px;
+}
+#para-head:hover{
+color: #31A49A;
+}
+
+#para-card{
+    height: 350px;
+    width: 270px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.color{
+    display: flex;
+    gap: 7px;
+    margin-left: 5px;
+    padding-top: 5px;
+    border: none;
+
+}
+.first-color{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 90%;
+}
+#second-color{
+    background-color: green;
+}
+#third-color{
+    background-color: red;
+}
+hr{
+    margin-top: 10px;
+}
+.para-pricing{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(50%);
+    align-items: center;
+    padding: 0px 4px;
+}
+#para-no{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+#shopping{
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: #31A49A;
+    border-radius: 10px
+}
+
+#shopping:hover{
+    background-color:rgba(0, 128, 0, 0.409) ;
+}
+
+#collection2{
+    gap: 130px;
+}
+
+#collection3{
+    gap: 120px;
+}
+#logo-pic-button1{
+    margin-left: 5px;
+}
+
+#logo-button2{
+    margin-left: 6px;
+    color: rgba(255, 0, 0, 0.664);
+    background-color: rgba(255, 0, 0, 0.308);
+    padding: 5px;
+}
+
+#logo-button3{
+    margin-left: 6px;
+    color: rgba(255, 0, 0, 0.664);
+    background-color: rgba(255, 0, 0, 0.308);
+    padding: 5px;
+}
